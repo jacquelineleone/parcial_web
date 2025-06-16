@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0px 30px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  letter-spacing: 1px;
+}
+
+.nav_item {
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav_active {
+  font-weight: 500;
+  color: #00f3cc;
+}
