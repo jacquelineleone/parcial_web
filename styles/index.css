@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Avatar";
+  src: url("../assets/fonts/avatar-typography.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* esconder la scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* esconder la scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0px 30px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  letter-spacing: 1px;
+}
+
+.nav_item {
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav_active {
+  font-weight: 500;
+  color: #00f3cc;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 50px 0px;
+  width: 100%;
+  background-image: url("../assets/images/footer-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer p {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  font-family: "Avatar", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p,
+li {
+  max-width: 1200px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* ESTILOS REUTILIZADOS EN VARIOS HTML */
+
+/* clase para poner el fondo de la página en color azul */
+.blue_page {
+  background-color: #025075;
+}
+
+/* agrega un margen de 40px a las imagenes que contienen esta clase */
+.image_text {
+  margin-top: 40px;
+}
+
+/* clase para centrar el título */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* clase para estilar a los textos dentro de las páginas */
+.body_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  padding: 0px 150px;
+}
+
+.body_text p {
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+#personajes {
+  margin-bottom: 40px;
+}
+
+#characters_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 30px 15px;
+  background-image: url("../assets/images/card-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card p {
+  text-align: center;
+}

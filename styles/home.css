@@ -1,0 +1,38 @@
+#home_body {
+  background-image: url("../assets/images/background-home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 120px);
+}
+
+#hero {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 40px;
+}
+
+#home_footer {
+  background-color: #025075;
+  background-image: none;
+}
+
+.text_box {
+  padding: 10px 15px;
+  border: 2px solid #147ca9;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #147ca9;
+}
+
+.intro {
+  width: 40%;
+}

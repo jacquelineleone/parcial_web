@@ -1,0 +1,17 @@
+#curiosidades {
+  margin-bottom: 40px;
+}
+
+.awards_list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.awards_list li::marker {
+  color: #00f3cc;
+}
+
+.highlight {
+  color: #00f3cc;
+}
