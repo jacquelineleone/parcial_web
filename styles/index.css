@@ -18,7 +18,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 
-  /* esconder la scrollbar */
+  /* Esconder la scrollbar */
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -33,7 +33,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
 }
 
 h1,
@@ -43,7 +42,13 @@ h2 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
 }
 
 p,
@@ -70,17 +75,6 @@ img {
 
 /* ESTILOS REUTILIZADOS EN VARIOS HTML */
 
-/* clase para poner el fondo de la página en color azul */
-.blue_page {
-  background-color: #025075;
-}
-
-/* agrega un margen de 40px a las imagenes que contienen esta clase */
-.image_text {
-  margin-top: 40px;
-}
-
-/* clase para centrar el título */
 .title {
   display: flex;
   flex-direction: column;
@@ -88,16 +82,22 @@ img {
   width: 100%;
 }
 
-/* clase para estilar a los textos dentro de las páginas */
-.body_text {
+.subtitle {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 28px;
-  padding: 0px 150px;
+  justify-content: space-between;
 }
 
-.body_text p {
-  text-align: center;
+.column_text {
+  display: flex;
+  flex-direction: row;
+  gap: 68px;
+}
+
+.column {
+  width: 362px;
+}
+
+.column p {
+  margin-bottom: 20px;
 }
