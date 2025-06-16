@@ -17,9 +17,15 @@ nav {
 .nav_item {
   text-transform: uppercase;
   color: white;
+  opacity: 75%;
+  transition: opacity 0.3s ease;
+}
+
+.nav_item:hover {
+  opacity: 100%;
+  transition: opacity 0.3s ease;
 }
 
 .nav_active {
-  font-weight: 500;
-  color: #00f3cc;
+  opacity: 100%;
 }
