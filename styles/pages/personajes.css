@@ -1,27 +1,48 @@
+#personajes_page {
+  background-color: #69C4D7;
+}
+
 #personajes {
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #characters_cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 48px;
   margin-top: 40px;
+
+  max-width: 1000px;
 }
 
 .card {
+  position: relative;
+  width: 300px;
+  padding: 30px 15px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
-  padding: 30px 15px;
-  background-image: url("../assets/images/card-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 30px;
 }
 
 .card p {
   text-align: center;
+}
+
+.card_background {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+
+#characters_bottom {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin-top: 82px;
+  margin-bottom: -4px;
 }
