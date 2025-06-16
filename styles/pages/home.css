@@ -1,5 +1,5 @@
 #home_body {
-  background-image: url("../assets/images/background-home.png");
+  background-image: url("../../assets/images/background-home.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,11 +17,6 @@
   flex-direction: column;
   gap: 15px;
   margin-left: 40px;
-}
-
-#home_footer {
-  background-color: #025075;
-  background-image: none;
 }
 
 .text_box {
