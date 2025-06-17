@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="blue_page">
+  <body id="contacto_page">
     <header>
       <a target="_blank" href="https://www.disneyplus.com/">
         <img
@@ -36,69 +36,50 @@
       </nav>
     </header>
 
-    <main id="contacto">
-      <section id="contact_section">
-        <div class="title">
-          <h1>Contacto</h1>
+    <main>
+      <section id="contact" class="column_text">
+        <div class="subtitle column">
+          <div>
+            <h1>Contacto</h1>
+            <h2>Dejanos tu opinión sobre la película</h2>
+          </div>
+
           <img
-            src="./assets/images/title-divider.png"
-            alt="Imagen decorativa del título"
-            width="336"
+            src="./assets/images/vertical-divider.png"
+            alt="Imagen decorativa del subtítulo"
+            width="77"
           />
         </div>
 
-        <div class="content">
-          <p>Redes de contacto oficiales de la película</p>
-
-          <div id="social_media">
-            <a href="https://www.avatar.com/" target="_blank">
-              <img
-                src="./assets/images/logo-web.svg"
-                alt="Logo Web"
-                height="27"
-              />
-            </a>
-            <a href="https://www.facebook.com/avatar.oficial/" target="_blank">
-              <img
-                src="./assets/images/logo-facebook.svg"
-                alt="Logo Facebook"
-                height="27"
-              />
-            </a>
-            <a href="https://www.instagram.com/avatar/?hl=es" target="_blank">
-              <img
-                src="./assets/images/logo-instagram.svg"
-                alt="Logo Instagram"
-                height="27"
-              />
-            </a>
+        <form id="form_section">
+          <div class="input_inline">
+            <div class="input_container">
+              <label>Nombre</label>
+              <input />
+            </div>
+            <div class="input_container">
+              <label>Apellido</label>
+              <input />
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section id="form_section">
-        <div class="input_inline">
           <div class="input_container">
-            <p>Nombre</p>
-            <div class="input"></div>
+            <label>Email</label>
+            <input />
           </div>
+
           <div class="input_container">
-            <p>Apellido</p>
-            <div class="input"></div>
+            <label>Personaje favorito</label>
+            <input />
           </div>
-        </div>
 
-        <div class="input_container">
-          <p>Email</p>
-          <div class="input"></div>
-        </div>
+          <div class="input_container">
+            <label>Mensaje</label>
+            <textarea></textarea>
+          </div>
 
-        <div class="input_container">
-          <p>Tu mensaje</p>
-          <div class="textarea"></div>
-        </div>
-
-        <button>Enviar</button>
+          <button id="send_button">Enviar</button>
+        </form>
       </section>
     </main>
 
