@@ -1,9 +1,44 @@
+#produccion_page {
+  background-image: url("../../assets/images/background_produccion.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #produccion {
-  margin-bottom: 40px;
+  height: calc(100vh - 120px);
+  display: flex;
+  gap: 100px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text_center {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+
+  max-width: 793px;
+}
+
+.text_center img {
+  margin-top: 50px;
 }
 
 .list {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-align: left;
+}
+
+#avatar_legacy {
+  margin-bottom: 200px;
 }

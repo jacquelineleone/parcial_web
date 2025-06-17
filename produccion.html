@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="blue_page">
+  <body id="produccion_page">
     <header>
       <a target="_blank" href="https://www.disneyplus.com/">
         <img
@@ -36,8 +36,8 @@
       </nav>
     </header>
 
-    <main id="produccion">
-      <section>
+    <main>
+      <section id="produccion">
         <div class="title">
           <h1>Produccion</h1>
           <img
@@ -47,55 +47,59 @@
           />
         </div>
 
-        <div class="body_text">
-          <p>
-            James Cameron, el productor de la película, escribió el guión de la
-            película <em>en tan solo dos semanas</em>, combinando elementos
-            preexistentes que ya existían sobre Avatar.
-          </p>
+        <div class="column_text">
+          <div class="column">
+            <p>
+              James Cameron, el productor de la película, escribió el guión de
+              la película <em>en tan solo dos semanas</em>, combinando elementos
+              preexistentes que ya existían sobre Avatar.
+            </p>
+            <p>
+              Su intención en un primer momento era lanzar la película en 1999,
+              pero consideró que la tecnología de la época no era lo
+              suficientemente avanzada como para realizarla cómo se la había
+              imaginado. Por ello pospuso su filmación hasta aproximadamente el
+              año 2005.
+            </p>
+            <p>
+              Lo interesante de esto, es la manera en que Cameron se enfocó en
+              todos los detalles, por ejemplo desarrollando la cultura na’vi,
+              tomándose el tiempo de crear el propio idioma de la raza
+              alienígena junto al lingüista <strong>Paul Frommer</strong>. El
+              idioma na’vi tuvo
+              <strong
+                >incidencias del idioma amhárico de Etiopía y del maorí, hablado
+                en Nueva Zelanda.</strong
+              >
+            </p>
+          </div>
 
-          <p>
-            La historia sigue a Jake Sully, un exmarine paralítico seleccionado
-            para participar en <strong>el programa Avatar</strong>, un proyecto
-            que permite a los humanos controlar cuerpos biológicamente creados
-            con ADN Na'vi. Su misión es infiltrarse entre los nativos para
-            facilitar la extracción de un valioso mineral.
-          </p>
-
-          <p>
-            Su intención en un primer momento era lanzar la película en 1999,
-            pero consideró que la tecnología de la época no era lo
-            suficientemente avanzada como para realizarla cómo se la había
-            imaginado. Por ello pospuso su filmación hasta aproximadamente el
-            año 2005.
-          </p>
-
-          <p>
-            Lo interesante de esto, es la manera en que Cameron se enfocó en
-            todos los detalles, por ejemplo desarrollando la cultura na’vi,
-            tomándose el tiempo de crear el propio idioma de la raza alienígena
-            junto al lingüista <strong>Paul Frommer</strong>. El idioma na’vi
-            tuvo
-            <strong
-              >incidencias del idioma amhárico de Etiopía y del maorí, hablado
-              en Nueva Zelanda.</strong
-            >
-          </p>
-
-          <img
-            src="./assets/images/language-navi.png"
-            alt="Paul Framer y las incidencias de los lenguajes"
-            class="image_text"
-            width="842"
-          />
+          <figure>
+            <img
+              src="./assets/images/language-navi.png"
+              alt="Paul Framer y las incidencias de los lenguajes"
+              class="image_text"
+              width="362"
+              height="442"
+            />
+            <figcaption>Lingüista Paul Frommer</figcaption>
+          </figure>
         </div>
       </section>
 
+      <div class="divider">
+        <img
+          src="./assets/images/horizontal-divider.png"
+          alt="Divisor"
+          width="249"
+        />
+      </div>
+
       <section>
-        <div class="body_text">
+        <div class="text_center">
           <p>
-            Como mencioné anteriormente, la película se demoró debido a la falta
-            de desarrollo de la tecnología cinematográfica.
+            La película se demoró debido a la falta de desarrollo de la
+            tecnología cinematográfica.
           </p>
 
           <p>
@@ -125,42 +129,30 @@
             sus avatares azules con total fidelidad y en tiempo real.
           </p>
 
-          <img
-            src="./assets/images/motion-capture.png"
-            alt="Tecnología Motion Capture en acción"
-            class="image_text"
-            width="842"
-          />
+          <figure>
+            <img
+              src="./assets/images/motion-capture.png"
+              alt="Tecnología Motion Capture en acción"
+              class="image_text"
+              width="793"
+            />
+            <figcaption>
+              Funcionamiento de la tecnología de Motion Capture
+            </figcaption>
+          </figure>
         </div>
       </section>
 
-      <section>
-        <div class="body_text">
-          <p>
-            Otro dato muy interesante en la creación y producción de Avatar es
-            que Pandora, el lugar donde se desarrolla la película, es un planeta
-            imaginario. Por eso, casi todas las escenas que se ven, fueron
-            generadas por una computadora, utilizando herramientas de modelado y
-            animación 3D de alta resolución.
-          </p>
-          <p>
-            La creación de Pandora estuvo en manos de
-            <strong>Weta Digital</strong>, quienes también fueron parte de la
-            producción de
-            <strong>El Señor de los Anillos.</strong>
-          </p>
+      <div class="divider">
+        <img
+          src="./assets/images/horizontal-divider.png"
+          alt="Divisor"
+          width="249"
+        />
+      </div>
 
-          <img
-            src="./assets/images/pandora.png"
-            alt="Mundo de Pandora"
-            class="image_text"
-            width="842"
-          />
-        </div>
-      </section>
-
-      <section>
-        <div class="body_text">
+      <section id="avatar_legacy">
+        <div class="text_center">
           <p>
             Avatar implicó un
             <strong>antes y un después en el mundo cinematográfico</strong>, ya
@@ -192,11 +184,45 @@
     </main>
 
     <footer>
-      <p>
-        En razón del <em>primer parcial</em> de programacion web, de la
-        <strong>Escuela Davinci</strong>
-      </p>
-      <p>© 2025 - Jacqueline Leone</p>
+      <div id="footer_content">
+        <p>
+          En razón del <em>primer parcial</em> de programacion web, de la
+          <strong>Escuela Davinci</strong>
+        </p>
+        <p>© 2025 - Jacqueline Leone</p>
+      </div>
+
+      <div id="social_media">
+        <a
+          href="https://www.avatar.com/"
+          target="_blank"
+          title="Ir a la página oficial"
+        >
+          <img src="./assets/images/logo-web.svg" alt="Logo Web" height="27" />
+        </a>
+        <a
+          href="https://www.facebook.com/avatar.oficial/"
+          target="_blank"
+          title="Ir a Facebook"
+        >
+          <img
+            src="./assets/images/logo-facebook.svg"
+            alt="Logo Facebook"
+            height="27"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/avatar/?hl=es"
+          target="_blank"
+          title="Ir a Instagram"
+        >
+          <img
+            src="./assets/images/logo-instagram.svg"
+            alt="Logo Instagram"
+            height="27"
+          />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
