@@ -1,5 +1,14 @@
+#curiosidades_page {
+  background-image: url("../../assets/images/background-curiosidades.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #curiosidades {
-  margin-bottom: 40px;
+  height: calc(100vh - 120px);
+  display: flex;
+  gap: 100px;
 }
 
 .awards_list {
@@ -14,4 +23,8 @@
 
 .highlight {
   color: #00f3cc;
+}
+
+#awards {
+  height: 70vh;
 }
