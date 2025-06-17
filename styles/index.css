@@ -38,6 +38,7 @@ section {
 h1,
 h2 {
   font-family: "Avatar", sans-serif;
+  font-weight: 500;
   color: white;
 }
 
@@ -53,7 +54,7 @@ h3 {
 
 p,
 li {
-  max-width: 1200px;
+  font-weight: 100;
   letter-spacing: 1px;
   color: white;
 }
