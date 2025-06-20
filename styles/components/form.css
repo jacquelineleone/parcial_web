@@ -42,8 +42,6 @@ textarea {
   border-radius: 5px;
   padding: 16px 14px;
   color: white;
-
-  height: 120px;
 }
 
 input::placeholder,
