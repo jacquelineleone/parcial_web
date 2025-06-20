@@ -63,6 +63,7 @@
                 placeholder="Escriba su nombre"
                 autofocus
                 autocomplete="off"
+                tabindex="1"
                 required
               />
             </div>
@@ -74,6 +75,7 @@
                 type="text"
                 placeholder="Escriba su apellido"
                 autocomplete="off"
+                tabindex="2"
                 required
               />
             </div>
@@ -87,13 +89,14 @@
               type="email"
               placeholder="Escriba su email"
               autocomplete="off"
+              tabindex="3"
               required
             />
           </div>
 
           <div class="input_container">
             <label for="favorite_character">Personaje favorito</label>
-            <select id="favorite_character" name="favorite_character" required>
+            <select id="favorite_character" name="favorite_character">
               <option value="" disabled selected>
                 Seleccione a su personaje favorito
               </option>
@@ -112,8 +115,10 @@
               id="message"
               name="message"
               placeholder="Dejanos tu opinión"
-              required
               rows="5"
+              maxlength="500"
+              tabindex="4"
+              required
             ></textarea>
           </div>
 
