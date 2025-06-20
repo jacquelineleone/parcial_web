@@ -69,6 +69,15 @@ button {
   outline: none;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: none;
 }
 
 figure {
@@ -96,6 +105,24 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.central_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.central_text h1 {
+  font-size: 4rem;
+  max-width: 700px;
+}
+
+.central_text button {
+  margin-top: 20px;
 }
 
 .column_text {
