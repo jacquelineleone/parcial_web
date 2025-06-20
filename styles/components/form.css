@@ -17,7 +17,8 @@ label {
   text-transform: uppercase;
 }
 
-input {
+input,
+select {
   font-family: "Montserrat", sans-serif;
   background-color: transparent;
   border: 1px solid #ffffff80;
@@ -27,6 +28,11 @@ input {
   transition: border 0.3s ease;
 
   height: 44px;
+}
+
+select {
+  appearance: none;
+  height: 50px;
 }
 
 textarea {
@@ -46,7 +52,8 @@ textarea::placeholder {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   border: 1px solid white;
   outline: none;
   transition: border 0.2s ease;
@@ -63,13 +70,6 @@ textarea:focus {
   display: flex;
   gap: 15px;
   width: 100%;
-}
-
-#send_button {
-  background-color: #f4f4f4;
-  border-radius: 30px;
-  padding: 10px 40px;
-  text-transform: uppercase;
 }
 
 .input_container p {
