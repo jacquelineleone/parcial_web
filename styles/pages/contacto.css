@@ -38,19 +38,30 @@ label {
 input {
   font-family: "Montserrat", sans-serif;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #FFFFFF80;
   border-radius: 5px;
   padding: 16px 14px;
   color: white;
+  transition: border 0.3s ease;
 }
 
 textarea {
   font-family: "Montserrat", sans-serif;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #FFFFFF80;
   border-radius: 5px;
   padding: 16px 14px;
   color: white;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #FFFFFF80;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid white;
+  outline: none;
+  transition: border 0.2s ease;
 }
 
 .input_container {
