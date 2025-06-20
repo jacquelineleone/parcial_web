@@ -52,30 +52,53 @@
         </div>
 
         <form id="form_section">
-          <div class="input_inline">
+          <fieldset class="input_inline">
             <div class="input_container">
               <label for="name">Nombre</label>
-              <input id="name" placeholder="Escriba su nombre" autocomplete="false"/>
+              <input
+                id="name"
+                placeholder="Escriba su nombre"
+                autocomplete="off"
+                type="text"
+                autofocus
+                required
+              />
             </div>
             <div class="input_container">
               <label for="lastname">Apellido</label>
-              <input id="lastname" placeholder="Escriba su apellido" autocomplete="false" />
+              <input
+                id="lastname"
+                placeholder="Escriba su apellido"
+                autocomplete="off"
+                type="text"
+                required
+              />
             </div>
-          </div>
+          </fieldset>
 
           <div class="input_container">
             <label for="email">Email</label>
-            <input id="email" placeholder="Escriba su email" autocomplete="false"/>
+            <input
+              id="email"
+              placeholder="Escriba su email"
+              autocomplete="off"
+              type="email"
+              required
+            />
           </div>
 
           <div class="input_container">
             <label for="favorite_character">Personaje favorito</label>
-            <input id="favorite_character" placeholder="Seleccione a su personaje favorito"/>
+            <input
+              id="favorite_character"
+              placeholder="Seleccione a su personaje favorito"
+              required
+            />
           </div>
 
           <div class="input_container">
             <label for="message">Mensaje</label>
-            <textarea id="message" placeholder="Dejanos tu opinión"></textarea>
+            <textarea id="message" placeholder="Dejanos tu opinión" required></textarea>
           </div>
 
           <button id="send_button">Enviar</button>
