@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/components/header.css" />
     <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/form.css" />
     <link rel="stylesheet" href="./styles/pages/contacto.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,16 +90,24 @@
 
           <div class="input_container">
             <label for="favorite_character">Personaje favorito</label>
-            <input
-              id="favorite_character"
-              placeholder="Seleccione a su personaje favorito"
-              required
-            />
+            <select id="favorite_character" required>
+              <option>Seleccione a su personaje favorito</option>
+              <option value="Jake Sully">Jake Sully</option>
+              <option value="Neytiri">Neytiri</option>
+              <option value="Dr. Grace">Dr. Grace</option>
+              <option value="Eytukan">Eytukan</option>
+              <option value="Mo'at">Mo'at</option>
+              <option value="Miles Quarich">Miles Quarich</option>
+            </select>
           </div>
 
           <div class="input_container">
             <label for="message">Mensaje</label>
-            <textarea id="message" placeholder="Dejanos tu opinión" required></textarea>
+            <textarea
+              id="message"
+              placeholder="Dejanos tu opinión"
+              required
+            ></textarea>
           </div>
 
           <button id="send_button">Enviar</button>
