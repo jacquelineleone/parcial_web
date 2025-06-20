@@ -1,0 +1,79 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  min-width: 550px;
+
+  background-color: #00213645;
+  border-radius: 15px;
+  padding: 60px 32px;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: white;
+  text-transform: uppercase;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: 1px solid #ffffff80;
+  border-radius: 5px;
+  padding: 16px 14px;
+  color: white;
+  transition: border 0.3s ease;
+
+  height: 44px;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: 1px solid #ffffff80;
+  border-radius: 5px;
+  padding: 16px 14px;
+  color: white;
+
+  height: 120px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ffffff80;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid white;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.input_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input_inline {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+
+#send_button {
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+.input_container p {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #e9e9e9;
+}
