@@ -22,3 +22,13 @@ footer p {
   display: flex;
   gap: 25px;
 }
+
+#social_media a {
+  scale: 1;
+  transition: scale 0.3s ease;
+}
+
+#social_media a:hover {
+  scale: 1.2;
+  transition: scale 0.3s ease;
+}
