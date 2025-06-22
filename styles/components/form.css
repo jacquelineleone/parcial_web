@@ -33,6 +33,14 @@ select {
 select {
   appearance: none;
   height: 50px;
+  background-image: url('../../assets/images/arrow-down.svg');
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 24px;
+}
+
+option {
+  background-color: var(--blue);
 }
 
 textarea {
