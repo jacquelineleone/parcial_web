@@ -14,6 +14,14 @@ nav {
   letter-spacing: 1px;
 }
 
+#burger_menu {
+  display: none;
+}
+
+.disney_icon {
+  width: 119.4px;
+}
+
 .nav_item {
   text-transform: uppercase;
   color: white;
@@ -28,4 +36,22 @@ nav {
 
 .nav_active {
   opacity: 100%;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 0px 24px;
+  }
+
+  #burger_menu {
+    display: inline-block; /* Mostrar menú hamburguesa */
+  }
+
+  .disney_icon {
+    width: 77px;
+  }
+
+  .nav_item {
+    display: none;
+  }
 }
