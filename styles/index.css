@@ -150,3 +150,13 @@ figcaption {
 .column p {
   margin-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  .hidden_text {
+    display: none;
+  }
+}
