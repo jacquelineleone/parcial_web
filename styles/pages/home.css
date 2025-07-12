@@ -19,6 +19,10 @@
   margin-left: 40px;
 }
 
+#avatar_image {
+  width: 424px;
+}
+
 .text_box {
   padding: 10px 15px;
   border: 2px solid #147ca9;
@@ -30,4 +34,21 @@
 
 .intro {
   width: 40%;
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    /* background-color: cadetblue; */
+    gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #avatar_image {
+    width: 260px;
+  }
+
+  .intro {
+    width: 100%;
+  }
 }
