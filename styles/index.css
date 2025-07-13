@@ -96,6 +96,10 @@ figure {
   gap: 15px;
 }
 
+figure img {
+  width: 793px;
+}
+
 figcaption {
   font-size: 0.7rem;
 }
@@ -108,6 +112,11 @@ figcaption {
   align-items: center;
   gap: 15px;
   width: 100%;
+}
+
+.title img {
+  width: 336px;
+  height: auto;
 }
 
 .subtitle {
@@ -152,18 +161,27 @@ figcaption {
   width: 362px;
 }
 
-.column p {
+.column p, .column ul {
   margin-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
+  figure img {
+    width: 600px;
+  }
+
+  .title img {
+    width: 232px;
+  }
+
   .subtitle {
     position: relative;
     flex-direction: column;
     justify-content: center;
   }
 
-  .subtitle h1 {
+  .subtitle h1,
+  .subtitle h2 {
     margin-bottom: 110px;
   }
 
@@ -178,14 +196,33 @@ figcaption {
     flex-direction: column;
     gap: 0px;
   }
+
+  .column {
+    width: 100%;
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 767px) {
+  figure {
+    max-width: 340px;
+  }
+
+  figure img {
+    width: 340px;
+  }
+
+  figcaption {
+    font-size: 0.6rem;
+    text-align: right;
+  }
+
   h1 {
     font-size: 1.5rem;
   }
 
-  p {
+  p,
+  li {
     font-size: 0.9rem;
   }
 
@@ -212,6 +249,14 @@ figcaption {
 
   .central_text p {
     width: 95%;
+  }
+
+  .column_text {
+    text-align: center;
+  }
+
+  .column {
+    max-width: 340px;
   }
 
   .hidden_mobile {

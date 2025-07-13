@@ -28,3 +28,24 @@
 #awards {
   height: 70vh;
 }
+
+@media (max-width: 1024px) {
+  #curiosidades {
+    height: auto;
+    gap: 75px;
+    margin-bottom: 75px;
+  }
+
+  #awards {
+    padding: 75px 0;
+    height: auto;
+  }
+
+  #awards h3 {
+    display: none;
+  }
+
+  #awards .column {
+    text-align: left;
+  }
+}
