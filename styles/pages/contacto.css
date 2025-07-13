@@ -16,7 +16,7 @@
   color: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   #contacto_page {
     background-position: top left;
   }
@@ -26,10 +26,6 @@
   }
 
   #contact h2 {
-    display: none;
-  }
-
-  .underline_image {
     display: none;
   }
 }

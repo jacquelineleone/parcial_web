@@ -95,12 +95,13 @@ select:focus {
   color: white;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   form {
     background-color: transparent;
     border-radius: 0;
     width: 100%;
     min-width: 340px;
+    max-width: 600px;
     padding: 38px 24px;
   }
 
