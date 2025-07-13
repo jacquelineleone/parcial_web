@@ -167,7 +167,7 @@ figcaption {
     margin-bottom: 110px;
   }
 
-  .underline_image {
+  .subtitle img {
     transform: rotate(-90deg);
     position: absolute;
     height: 236px;
