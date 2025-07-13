@@ -180,6 +180,20 @@ figcaption {
     justify-content: center;
   }
 
+  .central_text {
+    gap: 16px;
+    width: 100%;
+  }
+
+  .central_text h1 {
+    font-size: 1.5rem;
+    width: 95%;
+  }
+
+  .central_text p {
+    width: 95%;
+  }
+
   .column_text {
     flex-direction: column;
     gap: 0px;
