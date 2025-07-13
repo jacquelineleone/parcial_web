@@ -19,6 +19,11 @@
   margin-bottom: 100px;
 }
 
+.divider img {
+  height: auto;
+  width: 249px;
+}
+
 .text_center {
   display: flex;
   flex-direction: column;
@@ -41,4 +46,39 @@
 
 #avatar_legacy {
   margin-bottom: 200px;
+}
+
+@media (max-width: 1024px) {
+  #produccion {
+    height: auto;
+    gap: 75px;
+  }
+
+  .text_center {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .divider {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  .divider img {
+    width: 150px;
+  }
+
+  .text_center {
+    align-items: center;
+    max-width: 340px;
+  }
+
+  #avatar_legacy {
+    margin-bottom: 100px;
+  }
+
+  #avatar_legacy .text_center {
+    text-align: left;
+  }
 }

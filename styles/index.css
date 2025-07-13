@@ -100,6 +100,11 @@ figure img {
   width: 793px;
 }
 
+figure .column_image {
+  width: 362px;
+  height: 100%;
+}
+
 figcaption {
   font-size: 0.7rem;
 }
@@ -170,6 +175,11 @@ figcaption {
     width: 600px;
   }
 
+  figure .column_image {
+    width: 600px;
+  }
+
+
   .title img {
     width: 232px;
   }
@@ -209,6 +219,10 @@ figcaption {
   }
 
   figure img {
+    width: 340px;
+  }
+
+  figure .column_image {
     width: 340px;
   }
 
