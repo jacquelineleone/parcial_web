@@ -14,3 +14,25 @@
 #movie_impact {
   height: 80vh;
 }
+
+@media (max-width: 1024px) {
+  #about {
+    height: auto;
+    gap: 75px;
+  }
+
+  #about,
+  #soundtrack,
+  #movie_impact {
+    margin-bottom: 75px;
+  }
+
+  #soundtrack h3,
+  #movie_impact h3 {
+    display: none;
+  }
+
+  #movie_impact {
+    height: auto;
+  }
+}
