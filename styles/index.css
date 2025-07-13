@@ -164,6 +164,12 @@ figcaption {
     font-size: 0.9rem;
   }
 
+  p,
+  li,
+  figcaption {
+    font-weight: 200;
+  }
+
   button {
     padding: 10px 30px;
   }

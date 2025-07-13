@@ -46,6 +46,10 @@ footer p {
     padding: 32px 24px;
   }
 
+  footer p {
+    font-size: 0.8rem;
+  }
+
   #social_media img {
     height: 20px;
   }
