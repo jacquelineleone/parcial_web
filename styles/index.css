@@ -115,6 +115,10 @@ figcaption {
   justify-content: space-between;
 }
 
+.underline_image {
+  width: 77px;
+}
+
 .central_text {
   display: flex;
   flex-direction: column;
@@ -152,11 +156,28 @@ figcaption {
 }
 
 @media (max-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
   p {
     font-size: 0.9rem;
   }
 
-  .hidden_text {
+  button {
+    padding: 10px 30px;
+  }
+
+  .subtitle {
+    justify-content: center;
+  }
+
+  .column_text {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .hidden_mobile {
     display: none;
   }
 }
