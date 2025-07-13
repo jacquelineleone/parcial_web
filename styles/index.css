@@ -173,6 +173,7 @@ figcaption {
 
   button {
     padding: 10px 30px;
+    font-weight: 400;
   }
 
   .subtitle {

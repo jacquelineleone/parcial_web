@@ -104,6 +104,10 @@ select:focus {
     padding: 38px 24px;
   }
 
+  label {
+    font-weight: 400;
+  }
+
   .input_inline {
     flex-direction: column;
     gap: 30px;
