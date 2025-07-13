@@ -43,11 +43,15 @@
 }
 
 @media (max-width: 767px) {
+  #hero {
+    margin-left: 24px;
+  }
+
   #avatar_image {
     width: 260px;
   }
 
   .intro {
-    width: 100%;
+    width: 90%;
   }
 }
