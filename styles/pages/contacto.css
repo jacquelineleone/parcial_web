@@ -15,3 +15,21 @@
   font-weight: 400;
   color: white;
 }
+
+@media (max-width: 767px) {
+  #contacto_page {
+    background-position: top left;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  #contact h2 {
+    display: none;
+  }
+
+  .underline_image {
+    display: none;
+  }
+}
