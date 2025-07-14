@@ -113,4 +113,8 @@ select:focus {
     flex-direction: column;
     gap: 30px;
   }
+
+  .input_container {
+    text-align: left;
+  }
 }
