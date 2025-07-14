@@ -7,7 +7,7 @@ header {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
 }
 
-nav {
+#nav_items {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -37,21 +37,84 @@ nav {
 .nav_active {
   opacity: 100%;
 }
-
 @media (max-width: 1024px) {
   header {
+    position: relative;
     padding: 0px 24px;
   }
 
   #burger_menu {
-    display: inline-block; /* Mostrar menú hamburguesa */
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+    width: 28px;
+    height: 20px;
+
+    transform: translateY(-50%);
+  }
+
+  #burger_menu span {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+
+    transition: 0.3s ease-in-out;
+  }
+
+  #burger_menu.active {
+    position: fixed;
+    top: calc(60px - 10px); /* (header height 120 / 2) - (icon height / 2) */
+    right: 24px;
+  }
+
+  #burger_menu.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(12px);
+  }
+
+  #burger_menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #burger_menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-12px);
+  }
+
+  #nav_items {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: var(--blue);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 45px;
+
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      opacity 0.3s ease-in-out;
+    z-index: 9999;
+  }
+
+  #nav_items.active {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .nav_item {
+    width: fit-content;
+    margin-left: 30px;
   }
 
   .disney_icon {
     width: 77px;
-  }
-
-  .nav_item {
-    display: none;
   }
 }

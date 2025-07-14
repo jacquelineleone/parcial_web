@@ -23,20 +23,23 @@
           src="./assets/images/disney-logo.png"
           alt="Logo Disney"
           class="disney_icon"
-          
         />
       </a>
 
       <nav>
-        <a class="nav_item nav_active" href="./index.html">Home</a>
-        <a class="nav_item" href="./about.html">About</a>
-        <a class="nav_item" href="./personajes.html">Personajes</a>
-        <a class="nav_item" href="./produccion.html">Producción</a>
-        <a class="nav_item" href="./curiosidades.html">Curiosidades</a>
-        <a class="nav_item" href="./contacto.html">Contacto</a>
+        <div id="nav_items">
+          <a class="nav_item nav_active" href="./index.html">Home</a>
+          <a class="nav_item" href="./about.html">About</a>
+          <a class="nav_item" href="./personajes.html">Personajes</a>
+          <a class="nav_item" href="./produccion.html">Producción</a>
+          <a class="nav_item" href="./curiosidades.html">Curiosidades</a>
+          <a class="nav_item" href="./contacto.html">Contacto</a>
+        </div>
 
         <div id="burger_menu">
-          <img src="./assets/images/burger-menu.svg" alt="Menú" />
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </nav>
     </header>
@@ -91,5 +94,7 @@
         </a>
       </div>
     </footer>
+
+    <script src="./scripts/burgerMenu.js"></script>
   </body>
 </html>
